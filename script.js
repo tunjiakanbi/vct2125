@@ -10,8 +10,11 @@
     request.onreadystatechange = function () {
 
         if ((request.status === 200) && (request.readyState === 4)) {
-            var modify = document.getElementById('demo');
-            modify.innerHTML = request.responseText;
+            // var modify = document.getElementById('demo');
+            var modify = document.getElementsByTagName('li');
+            // modify.innerHTML = request.responseText;
+            modify[2].innerHTML = request.responseText;
+   
         }
     }
     request.send();
