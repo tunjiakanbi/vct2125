@@ -4,7 +4,7 @@ for (var i = 0; i < 100; i++) {
     request.send();
 
     // document.getElementById('demo').innerHTML = request.responseText;
-    if (request.status === 200 && request.readyState === 4) {
+    if (request.status === 200) && (request.readyState === 4) {
         console.log(request);
         document.writeln(request.responseText);
     }
