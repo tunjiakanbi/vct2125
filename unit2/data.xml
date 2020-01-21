@@ -1,0 +1,26 @@
+<artists>
+    <artist>
+        <artistname>Autechre</artistname>
+        <album>Quaristice</album>
+        <label>Warp Records</label>
+        <year>2008</year>
+    </artist>
+    <artist>
+        <artistname>Aphex Twin</artistname>
+        <album>Richard D. James Album and Come to Daddy</album>
+          <label>Warp Records</label>
+        <year>1996</year>
+    </artist>
+    <artist>
+        <artistname>Future Sounds of London</artistname>
+        <album>Dead Cities</album>
+         <label>Astralwerks/Virgin Records</label>
+        <year>1996</year>
+    </artist>
+    <artist>
+        <artistname>Kraftwerk</artistname>
+        <album>Computer World</album>
+         <label>Kling Klang/Warner Brothers</label>
+        <year>1981</year>
+    </artist>
+</artists>
