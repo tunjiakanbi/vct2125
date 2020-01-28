@@ -1,16 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Unit 3/Ajax JSON</title>
     <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
+    <style>
+        @font-face {
+            font-family: gotham;
+            src: url('GothamNarrow-thin.otf');
+        }
 
+        #update {
+            font-family: gotham;
+            font-size: 2.25em;
+        }
+
+        button {
+            font-family: gotham;
+            font-size: 1.25em;
+            padding: 0.75em;
+            border-radius: 0.25em;
+            background-image: linear-gradient(black, darkblue);
+            color: white;
+        }
+    </style>
 </head>
-<body>
-    <div id="update"></div>
 
- <script src="script.js"></script>   
+<body>
+    <button onclick="loadAjax();">Load Artists</button>
+    <div id="update"></div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        window.jQuery || document.write('<script src="js/jquery-3.4.1.min.js"><\/script>')
+    </script>
+    <script src="script.js"></script>
 </body>
+
 </html>
