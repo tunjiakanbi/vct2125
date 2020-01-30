@@ -6,13 +6,35 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Unit 2/Ajax XML</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <style>
+        @font-face {
+            font-family: gotham;
+            src: url('GothamNarrow-thin.otf');
+        }
 
+        #update {
+            font-family: gotham;
+            font-size: 2.25em;
+        }
+
+        button {
+            font-family: gotham;
+            font-size: 1.25em;
+            padding: 0.75em;
+            border-radius: 0.25em;
+            background-image: linear-gradient(black, darkblue);
+            color: white;
+        }
+    </style>
 </head>
 <body>
-    <div id="update"></div>
-<div>
+    <button onclick="loadArtist();">Load Artists</button>
+    <table id="update"></table>
+    <!-- <div id="update"></div> -->
+<!-- <div>
     <i class="glyphicon glyphicon-cloud"></i>
-</div>
- <script src="script.js"></script>   
+</div> -->
+ <!-- <script src="script.js"></script>    -->
+ <script src="script2.js"></script>   
 </body>
 </html>
