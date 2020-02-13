@@ -43,5 +43,5 @@
     }
 })();
 
-console.log("hello world");
+//console.log("hello world");
 //var url = "http://api.openweathermap.org/data/2.5/weather?zip=55110,us";
