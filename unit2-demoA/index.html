@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Unit 2 Demo A</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <style>
+        table {
+            background-color: black;
+            color: white;
+        }
+
+        @font-face {
+            font-family: gotham;
+            src: url(fonts/GothamNarrow-Thin.otf);
+        }
+        #data {
+            width: 100vw;
+            background-color: black;
+            height: 50vh;
+        }
+        #update {
+            font-family: gotham;
+            font-size: 1.25em;
+            background-color: black;
+            color: white;
+            width: 100%;
+        }
+
+        button {
+            font-family: gotham;
+            font-size: 2.25em;
+            padding: 0.75em;
+            border-radius: 0.25em;
+            background-image: linear-gradient(black, darkblue);
+            color: white;
+            margin: 1em;
+        }
+        th, td {
+            padding: 1em;
+        }
+        th {
+            font-family: 'Roboto', sans-serif;
+            color: red;
+            border-bottom: 2px solid white;
+        }
+    </style>
+</head>
+
+<body>
+    <button onclick="loadArtist();">Load Artists</button>
+    <div id="data">
+        <table id="update"></table>
+    </div>
+    <!-- <div id="update">
+
+    </div> -->
+    <script src="script2.js"></script>
+</body>
+
+</html>

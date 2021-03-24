@@ -1,0 +1,26 @@
+[
+    {
+        "artistname":"Autechre",
+        "album":"Quaristice",
+        "label":"Warp Records",
+        "year":"2008"
+    },
+    {
+        "artistname":"Aphex Twin",
+        "album":"Richard D. James Album and Come to Daddy",
+        "label":"Warp Records",
+        "year":"1996"
+    },
+    {
+        "artistname":"Future Sounds of London",
+        "album":"Dead Cities",
+        "label":"Astralwerks/Virgin Records",
+        "year":"1996"
+    },
+    {
+        "artistname":"Kraftwerk",
+        "album":"Computer World",
+        "label":"Kling Klang/Warner Brothers",
+        "year":"1981"
+    }
+]

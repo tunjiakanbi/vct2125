@@ -1,0 +1,15 @@
+.hidden {
+  display: none;
+}
+
+body {
+  background-image: url("https://www.nasa.gov/sites/default/files/thumbnails/image/stsci-h-p1915a-m-1707x2000.png");
+  background-repeat: no-repeat;
+  color: white;
+}
+
+div {
+  text-align: center;
+  padding: 300px;
+}
+/*# sourceMappingURL=style.css.map */

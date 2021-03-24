@@ -1,0 +1,35 @@
+body {
+    background: #f55858;
+    color: #fff;
+    font-family: 'Raleway';
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+img {
+   max-width: 640px;
+   max-height: 640px;
+
+   text-align: center;
+
+   margin-bottom: 50px;
+}
+
+a {
+    background-color: white;
+    border-radius: 2px;
+
+    padding: 10px;
+
+    color: black;
+    font-family: 'Raleway';
+}
+
+a:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}

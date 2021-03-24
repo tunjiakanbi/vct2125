@@ -22,21 +22,22 @@
             else {
               updateUIError();
              }
-            //console.log(httpRequest.responseText);
+            // console.log(httpRequest.responseText);
    
         }
     }
     function updateUISuccess(responseText) {
         var response = JSON.parse(responseText);
         var _results = response;
-        console.log(_results);
+        // console.log(_results);
+
         var results1 = response.results[0].display_title;
         var results2 = response.results[0].link.url;
         var results3 = response.results[0].multimedia.src;
         // console.log(results3);
         $('#nytimes').html(
             "<h1>" + results1 +"</h1>" +
-            '<a href="' + results2 + '" target="_blank"`>Click to Read More</a>' +
+            '<a href="' + results2 + '" target="_blank">Click to Read More</a>' +
             '<section><img src="' + results3 + '"/></section>'
             );
     }

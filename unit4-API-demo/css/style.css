@@ -1,0 +1,14 @@
+.hidden {
+  display: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+img {
+  width: 300px;
+  height: auto;
+  padding: 1em;
+}
+/*# sourceMappingURL=style.css.map */
